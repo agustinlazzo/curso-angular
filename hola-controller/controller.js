@@ -4,6 +4,6 @@
 * Description
 */
 var app = angular.module('MyFirstApp', []);
-app.controller('FirsController', function($scope){
+app.controller('FirstController', function($scope){
 	$scope.nombre = "Mario";
 });
