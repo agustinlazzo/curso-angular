@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="StarterApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Hola Mundo AngularJS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css">
+</head>
+<body layout="column" ng-controller="AppCtrl">
+	<md-toolbar layout="row">
+		<md-button class="md-icon-button" ng-click="toggleSidenav('left')" aria-label="Settings">
+      		Menu
+        </md-button>
+		<h1 class="md-toolbar-tools" layout-align-gt-sm="start">Hello World</h1>
+	</md-toolbar>
+    <div layout="row" layout-sm="column" layout-align="center" layout-margin>
+		<md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
+          	<md-toolbar class="md-accent md-hue-2">
+	    		<div class="md-toolbar-tools">
+	    			<span class="md-title">Mas Infomarción</span>
+	    		</div>
+	    	</md-toolbar>
+	    	<md-content layout-padding>
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, quidem. Voluptatibus culpa, dignissimos obcaecati, vel mollitia aperiam natus distinctio voluptatum maxime explicabo harum odio blanditiis eius voluptas, omnis quae aspernatur.</p>
+	    	</md-content>
+        </md-sidenav>
+    	<div flex class="md-whiteframe-z1">
+	    	<md-toolbar class="md-hue-2">
+	    		<div class="md-toolbar-tools">
+	    			<span class="md-title">Información</span>
+	    		</div>
+	    	</md-toolbar>
+			<md-content layout-padding style="height:300px;">
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius earum nostrum nam et, maiores dolor maxime dignissimos quisquam rerum sint in iure architecto illo dolorum officia quis sit consequuntur? Aliquid.</p>
+	    		<p>Lorem ipsum dolor sit amet, ne quod novum mei. Sea omnium invenire mediocrem at, in lobortis conclusionemque nam. Ne deleniti appetere reprimique pro, inani labitur disputationi te sed. At vix sale omnesque, id pro labitur reformidans accommodare, cum labores honestatis eu. Nec quem lucilius in, eam praesent reformidans no. Sed laudem aliquam ne.</p>
+			    <p>Facete delenit argumentum cum at. Pro rebum nostrum contentiones ad. Mel exerci tritani maiorum at, mea te audire phaedrum, mel et nibh aliquam. Malis causae equidem vel eu. Noster melius vis ea, duis alterum oporteat ea sea. Per cu vide munere fierent.</p>
+			    <p>Ad sea dolor accusata consequuntur. Sit facete convenire reprehendunt et. Usu cu nonumy dissentiet, mei choro omnes fuisset ad. Te qui docendi accusam efficiantur, doming noster prodesset eam ei. In vel posse movet, ut convenire referrentur eum, ceteros singulis intellegam eu sit.</p>
+			    <p>Sit saepe quaestio reprimique id, duo no congue nominati, cum id nobis facilisi. No est laoreet dissentias, idque consectetuer eam id. Clita possim assueverit cu his, solum virtute recteque et cum. Vel cu luptatum signiferumque, mel eu brute nostro senserit. Blandit euripidis consequat ex mei, atqui torquatos id cum, meliore luptatum ut usu. Cu zril perpetua gubergren pri. Accusamus rationibus instructior ei pro, eu nullam principes qui, reque justo omnes et quo.</p>
+			    <p>Sint unum eam id. At sit fastidii theophrastus, mutat senserit repudiare et has. Atqui appareat repudiare ad nam, et ius alii incorrupte. Alii nullam libris his ei, meis aeterno at eum. Ne aeque tincidunt duo. In audire malorum mel, tamquam efficiantur has te.</p>
+			    <p>Qui utamur tacimates quaestio ad, quod graece omnium ius ut. Pri ut vero debitis interpretaris, qui cu mentitum adipiscing disputationi. Voluptatum mediocritatem quo ut. Fabulas dolorem ei has, quem molestie persequeris et sit.</p>
+			    <p>Est in vivendum comprehensam conclusionemque, alia cetero iriure no usu, te cibo deterruisset pro. Ludus epicurei quo id, ex cum iudicabit intellegebat. Ex modo deseruisse quo, mel noster menandri sententiae ea, duo et tritani malorum recteque. Nullam suscipit partiendo nec id, indoctum vulputate per ex. Et has enim habemus tibique. Cu latine electram cum, ridens propriae intellegat eu mea.</p>
+			</md-content>
+    	</div>
+	    <div flex class="md-whiteframe-z1">
+	    	<md-toolbar class="md-accent md-hue-3">
+	    		<div class="md-toolbar-tools">
+	    			<span class="md-title">Formulario</span>
+	    		</div>
+	    	</md-toolbar>
+	    	<md-content layout-padding>
+			    <form>
+			    	<md-input-container>
+			    		<label>Usuario</label>
+			    		<input type="text" name="" id="">
+			    	</md-input-container>
+			    	<md-input-container>
+			    		<label>Contraseña</label>
+			    		<input type="password" name="" id="">
+			    	</md-input-container>
+			    	<input type="submit" value="Enviar" class="md-raised md-primary md-button md-default-theme">
+			    </form>
+		    </md-content>
+    	</div>
+    </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.js"></script>
+	<script src="controller.js"></script>
+</body>
+</html>
