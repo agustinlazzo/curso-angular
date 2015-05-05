@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="AppModule">
+<head>
+	<meta charset="UTF-8">
+	<title>Hola Mundo AngularJS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="controller.js"></script>
+</head>
+<body ng-controller="EjemploController">
+	<ul ng-cloak>
+		<li ng-repeat="repo in repos">
+			<img ng-src="{{ repo.owner.avatar_url }}" alt="">
+			<p>{{ repo.name }}</p>
+		</li>
+	</ul>
+</body>
+</html>
