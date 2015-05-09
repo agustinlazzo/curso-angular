@@ -37,7 +37,7 @@ angular.module('CustomDirective', [])
 })
 .controller('AppController', ['$scope','$http',function(s,h){
 	s.repos = [];
-	h.get("https://api.github.com/users/twitter/repos")
+	h.get("https://api.github.com/users/google/repos")
 	.success(function(data){
 		s.posts = data;
 		for (var i = data.length - 1; i >= 0; i--) {
